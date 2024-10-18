@@ -1,82 +1,70 @@
-## User Workflow
+# Getting Started with Create React App
 
-1. **Authentication**:
-   - Users sign up or sign in using their Google or GitHub accounts.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-2. **Workspace**:
-   - After authentication, users are redirected to their workspace, where they can view existing projects and start new ones.
+## Available Scripts
 
-3. **Create New Project**:
-   - Users click on the "Create New Project" button, enter a name for the project, and upload a media file (image or video).
+In the project directory, you can run:
 
-4. **Start Annotations**:
-   - After uploading the media, users click the "Start Annotations" button to begin the annotation process.
+### `npm start`
 
-5. **Automatic Annotations**:
-   - The application automatically generates bounding boxes over the media with corresponding labels (e.g., "man in a blue shirt").
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-6. **Review Annotations**:
-   - Users can:
-     - Accept each individual annotation.
-     - Click "Accept All" to approve all annotations at once.
-     - Select a specific bounding box to modify its annotation label after review.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-7. **Export Data**:
-   - After reviewing and accepting the annotations, users can save the annotated data as a JSON file associated with the media.
+### `npm test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Front-End Pages
+### `npm run build`
 
-1. **Login Page**:
-   - Authentication through Google or GitHub.
-   - Redirect to the workspace upon successful login.
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. **Workspace Page**:
-   - Display a list of existing annotation projects.
-   - Button to create a new project.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3. **Create Project Page**:
-   - Input fields for project name and media upload (image/video).
-   - Button to start the annotation process.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-4. **Annotation Interface Page**:
-   - Display uploaded media with automatically generated bounding boxes.
-   - Interface elements to accept, reject, or modify annotations.
-   - Button to accept all annotations.
+### `npm run eject`
 
-5. **Export Page**:
-   - Option to download the annotated data as a JSON file.
-   - Confirmation message upon successful export.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
----
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Additional Features to be Implemented
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- [ ] **User Profile Management**:
-  - Allow users to view and edit their profile settings.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-- [ ] **Project Management**:
-  - Enable users to delete or rename projects.
+## Learn More
 
-- [ ] **Annotation History**:
-  - Implement a feature to view previous annotations and revisions.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [ ] **Search and Filter Functionality**:
-  - Allow users to search for specific projects or annotations.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- [ ] **Error Handling**:
-  - Provide user-friendly error messages for various scenarios (e.g., upload failures, network issues).
+### Code Splitting
 
-- [ ] **Accessibility Features**:
-  - Ensure the application is accessible to users with disabilities.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-- [ ] **Responsive Design**:
-  - Optimize the UI for mobile and tablet devices.
+### Analyzing the Bundle Size
 
-- [ ] **User Feedback Mechanism**:
-  - Implement a system for users to provide feedback on the application experience.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-- [ ] **Documentation**:
-  - Create comprehensive user documentation and tutorials for using the annotation service.
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
