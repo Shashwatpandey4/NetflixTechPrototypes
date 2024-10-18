@@ -1,0 +1,43 @@
+.video-timeline {
+    position: relative;
+    height: 40px; 
+    background-color: #f0f0f0; 
+    cursor: pointer;
+    width: 80%;
+  }
+  
+  .frame {
+    position: absolute;
+    width: 2px;
+    height: 20px; 
+    background-color: #ff0000; 
+    top: 10px; 
+    z-index: 1; 
+  }
+  
+  .frame-timestamp {
+    position: absolute;
+    top: 25px; 
+    left: -5px; 
+    font-size: 10px; 
+    color: #000; 
+  }
+  
+  .timeline-progress {
+    position: absolute;
+    height: 100%; 
+    background-color: rgba(0, 0, 255, 0.5); 
+    top: 0;
+    left: 0;
+    z-index: 0; 
+  }
+  
+  .timeline-handle {
+    position: absolute;
+    width: 2px; 
+    height: 40px; 
+    background-color: #000; 
+    top: 0;
+    z-index: 2; 
+  }
+  

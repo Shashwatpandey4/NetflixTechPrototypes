@@ -1,0 +1,24 @@
+.project-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    text-align: center; 
+    background-color: #f4f4f4; 
+  }
+  
+  .project-title {
+    margin-bottom: 20px; 
+    font-size: 2rem; 
+  }
+  
+  .video-player-container {
+    width: 50%; 
+  }
+  
+  .video-player {
+    width: 100%; 
+    height: auto; 
+  }
+  
